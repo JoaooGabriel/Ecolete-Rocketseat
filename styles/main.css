@@ -1,0 +1,36 @@
+:root {
+    --title-color: #322153;
+    --primary-color: #34cb79;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+  /*BOX MODEL
+  
+  Modelo de caixa
+  Toda caixa tem
+  largura, altura, espaçamentos, preenchimentos
+  borads, cor, fundo, maneira que é vista pela html (display)
+  posicionamento, alinhamentos
+  */ 
+body {
+    background: linear-gradient(-50deg, #39ebd3, #151450);
+    -webkik-font-smoothing: antialiased;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}
